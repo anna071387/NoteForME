@@ -1,6 +1,8 @@
 # NoteForME
 
-![alt text](./assets/)
+![alt text](./assets/LandingPage-01.png)
+![alt text](./assets/NotesPage-01.png)
+![alt text](./assets/NewNote-01.png)
 
 
 

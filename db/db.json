@@ -58,5 +58,9 @@
     {
         "title": "New test",
         "text": "Test verify"
+    },
+    {
+        "title": "Working Note",
+        "text": "This note works"
     }
 ]
