@@ -7,7 +7,7 @@ const fs = require("fs");
 
 const id = require("./helpers/id");
 // Specify on which port the Express.js server will run
-const PORT = 3001;
+const port = process.env.PORT || 3001
 // Initialize an instance of Express.js
 const app = express();
 
@@ -102,6 +102,6 @@ app.post("/api/notes", (req, res) => {
   }
 });
 
-app.listen(PORT, () =>
-  console.log(`Example app listening at http://localhost:${PORT}`)
+app.listen(port, () =>
+  console.log(`Example app listening at http://localhost:${port}`)
 );
